@@ -1,0 +1,12 @@
+{
+  "name": "lazyimage",
+  "version": "0.0.0",
+  "main": "dist/lazyimage.min.js",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test"
+  ],
+  "dependencies": {}
+}

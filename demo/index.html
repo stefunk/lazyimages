@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>lazyimage demo</title>
+    <link rel="stylesheet" href="./assets/normalize.css" />
+    <link rel="stylesheet" href="./assets/main.css" />
+    <style>
+      /* begin demo embedded styles */
+
+      /* end demo embedded styles */
+    </style>
+  </head>
+  <body>
+    <div class="container">
+        <h1>lazyimage demo</h1>
+
+        <!-- begin demo markup -->
+        
+        <img class="lazyimg animation" data-src="img/space1.jpg" />
+        <div class="lazyimg animation" data-src="img/space2.jpg"></div>
+        <img class="lazyimg animation" data-src="img/space3.jpg" />
+        <img class="lazyimg animation" data-src="img/space4.jpg" />
+
+        <!-- end demo markup -->
+
+        <p>See the <a href="http://stefunk.github.io/lazyimage">project homepage</a>.
+        <p>Check out the <a href="https://github.com/stefunk/lazyimage">project repo</a>.
+        <p>Copyright 2014 Stefano Grassi</p>
+    </div>
+
+    <script src="./../dist/lazyimage.js"></script>
+
+    <script>
+      /* begin demo script */
+
+      var n = new lazyimage();
+      console.log(n);
+
+      /* end demo script */
+    </script>
+  </body>
+</html>
